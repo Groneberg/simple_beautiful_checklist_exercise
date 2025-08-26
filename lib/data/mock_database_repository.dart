@@ -35,4 +35,12 @@ class MockDatabaseRepository implements DatabaseRepository {
       _items[index] = newItem;
     }
   }
+  
+  @override
+  Future<void> initializePersistence() {
+    // TODO: implement initializePersistence
+    throw UnimplementedError();
+  }
+
+  
 }

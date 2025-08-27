@@ -14,5 +14,6 @@ abstract class DatabaseRepository {
   // Aktualisiert ein Item an einem bestimmten Index.
   Future<void> editItem(int index, String newItem);
 
+  // Initialisiert die Persistenz.
   Future<void> initializePersistence();
 }
